@@ -9,7 +9,13 @@ env/
 
 # Environment variables
 .env
-.env.*
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Data (you said you don’t want)
 data_outputs/
