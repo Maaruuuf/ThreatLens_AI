@@ -96,7 +96,7 @@ with st.sidebar:
 def load_all():
     model = load_model(MODEL_PATH)
     label_to_id, id_to_label = load_label_mapping(LABEL_MAP_PATH)
-    df = load_data("KathiS/Final_Preprocessed_IoTID20", HF_TOKEN)
+    df = load_data("maruuf/iotid20_dataset", HF_TOKEN)
     features = get_model_features(model)
 
     embedder = EmbeddingClient(HF_TOKEN)
