@@ -1,9 +1,12 @@
 streamlit
+python-dotenv
 pandas
 numpy
-python-dotenv
 datasets
 huggingface_hub
-sentence-transformers
 pinecone
+sentence-transformers
+scikit-learn
+xgboost
 groq
+matplotlib

@@ -7,17 +7,26 @@ from utils.incident_utils import *
 from utils.embedding_utils import EmbeddingClient
 from utils.retrieval_utils import *
 from utils.llm_utils import *
-
+import streamlit as st
 from sentence_transformers import CrossEncoder
 
 # ------------------------
 # Setup
 # ------------------------
+
+
+
 load_dotenv()
 
-HF_TOKEN = os.getenv("hf_token")
-PINECONE_API_KEY = os.getenv("pinecone_api_key")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+def get_secret(key):
+    try:
+        return st.secrets[key]  # Streamlit Cloud
+    except:
+        return os.getenv(key)   # Local .env
+
+HF_TOKEN = get_secret("hf_token")
+PINECONE_API_KEY = get_secret("pinecone_api_key")
+GROQ_API_KEY = get_secret("GROQ_API_KEY")
 
 MODEL_PATH = "utils/results/xgb_model.pkl"
 LABEL_MAP_PATH = "utils/results/label_mapping.json"
