@@ -1,0 +1,11 @@
+{
+    "DoS-Synflooding": 0,
+    "MITM ARP Spoofing": 1,
+    "Mirai-Ackflooding": 2,
+    "Mirai-HTTP Flooding": 3,
+    "Mirai-Hostbruteforceg": 4,
+    "Mirai-UDP Flooding": 5,
+    "Normal": 6,
+    "Scan Hostport": 7,
+    "Scan Port OS": 8
+}
