@@ -1,8 +1,29 @@
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://threatlensai-js8wyfwetjrjya42paybeo.streamlit.app/)
+
 # 🛡️ ThreatLens AI — Cybersecurity RAG Assistant
 
 ThreatLens AI is an intelligent cybersecurity assistant that combines **Machine Learning (IDS)**, **Vector Search (Pinecone)**, and **LLM reasoning (Groq - LLaMA 3.3)** to perform **automated incident analysis**.
 
 It simulates a real-world **SOC (Security Operations Center)** workflow using a Retrieval-Augmented Generation (RAG) pipeline.
+
+---
+
+## 🌐 Live Demo
+
+**Experience ThreatLens AI in action:**
+
+👉 **[Launch the App](https://threatlensai-js8wyfwetjrjya42paybeo.streamlit.app/)**
+
+---
+
+###  What you can do in the demo:
+
+*  Generate realistic network intrusion incident packets
+*  Run full SOC-level AI analysis reports
+*  Retrieve similar historical attack patterns
+*  Explore detailed mitigation strategies (MITRE & NIST)
+*  Interact via ChatGPT-style multi-session interface
+
 
 ---
 
