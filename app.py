@@ -106,7 +106,7 @@ def load_all():
 
     detection_index, mitigation_index = connect_pinecone(
         PINECONE_API_KEY,
-        "cybersec-llm-rag",
+        "detection-vector-db",
         "mitigation-vector-db"
     )
 
